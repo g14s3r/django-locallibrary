@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '$_c%@&1ujkpobo#xix2o(61=p3ffg_
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['radiant-reef-58262.herokuapp.com']
 
 
 # Application definition
